@@ -13,6 +13,7 @@
 		3F0C50E4268CCA6B00CA63E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C50E2268CCA6B00CA63E8 /* Main.storyboard */; };
 		3F0C50E6268CCA7700CA63E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C50E5268CCA7700CA63E8 /* Assets.xcassets */; };
 		3F0C50E9268CCA7700CA63E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C50E7268CCA7700CA63E8 /* LaunchScreen.storyboard */; };
+		3F0C50F1268CD2D000CA63E8 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C50F0268CD2D000CA63E8 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3F0C50E5268CCA7700CA63E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0C50E8268CCA7700CA63E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F0C50EA268CCA7700CA63E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0C50F0268CD2D000CA63E8 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3F0C50E5268CCA7700CA63E8 /* Assets.xcassets */,
 				3F0C50E7268CCA7700CA63E8 /* LaunchScreen.storyboard */,
 				3F0C50EA268CCA7700CA63E8 /* Info.plist */,
+				3F0C50F0268CD2D000CA63E8 /* ImageCollectionViewCell.swift */,
 			);
 			path = PhotoSearch;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				3F0C50E1268CCA6B00CA63E8 /* ViewController.swift in Sources */,
 				3F0C50DD268CCA6B00CA63E8 /* AppDelegate.swift in Sources */,
+				3F0C50F1268CD2D000CA63E8 /* ImageCollectionViewCell.swift in Sources */,
 				3F0C50DF268CCA6B00CA63E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9WNGWP3CA;
 				INFOPLIST_FILE = PhotoSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9WNGWP3CA;
 				INFOPLIST_FILE = PhotoSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
